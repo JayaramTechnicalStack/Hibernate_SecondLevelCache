@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+        
+<hibernate-mapping>
+
+<class name ="emp.Employee" table="emp">
+ <cache usage="read-only" />
+	<id name="empno" column="emp_no" type="java.lang.Integer">
+		<generator class="increment" />
+	</id>
+	<property name="empname" column="emp_name"></property>	
+	<property name="sal" column="emp_sal"></property>
+	<property name="empadd" column="emp_add"></property>
+	
+</class>
+	
+</hibernate-mapping>

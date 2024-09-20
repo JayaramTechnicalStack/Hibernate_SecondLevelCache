@@ -1,0 +1,7 @@
+<ehcache>
+
+<defaultCache maxElementsInMemory="100" eternal="false" timeToIdleSeconds="120" timeToLiveSeconds="200" />
+
+<cache name="emp.Employee" maxElementsInMemory="100" eternal="false" timeToIdleSeconds="8" timeToLiveSeconds="200" />
+
+</ehcache>
